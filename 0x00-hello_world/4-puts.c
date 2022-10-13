@@ -2,7 +2,7 @@
 
 int main(void);
 {
-	char *S = "Programming is like building a multilingual puzzle";
-	puts(S);
+	puts("programming is like building a multi
+lingual puzzle");
 	return (0);
 }
