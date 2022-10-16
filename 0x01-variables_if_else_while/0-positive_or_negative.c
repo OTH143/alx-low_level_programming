@@ -6,7 +6,8 @@
  * main - if practical
  * return: always 0
  */
-void main(void)
+int main(void)
+
 {
 	int n;
 
