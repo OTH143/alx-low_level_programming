@@ -6,24 +6,23 @@
  * main - if practical
  * return: always 0
  */
-int main(void)
+void main(void)
 {
-	int num;
-	
-	scanf("%d", &num);
-	if (num > 0)
-	{
-		printf("%d is positive\n", num);
-	}
-	else if (num < 0)
-	{
-		printf("%d is negative\n", num);
-	}
-	else if (num == 0)
-	{
-		printf("%d is zero\n", num);
-	}
+	int n;
 
+	scanf("%d", &n);
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	}
 	return (0);
 }
 
