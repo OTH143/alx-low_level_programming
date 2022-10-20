@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define MAIN.H
+#define MAIN_H
 
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -11,4 +11,7 @@ int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
 int add(int, int);
+void print_to_97(int n);
+int _putchar(char c);
+
 #endif
