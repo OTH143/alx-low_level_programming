@@ -2,6 +2,7 @@
 
 /**
  ** main - tests function that prints if integer is positive or negative
+ ** positive_or_negative - to input integers to stdout
  ** Return: 0
  **/
 int main(void)
