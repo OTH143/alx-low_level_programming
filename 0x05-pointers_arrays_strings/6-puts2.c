@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * _puts2 - puts function of a character
+ * puts2 - puts function of a character
  * @str: str parameter
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int len, i;
 
