@@ -4,8 +4,7 @@
  * _strcat - to add or combine two strings together
  * @dest: the destination string
  * @src: the source string
- *
- * Return: a strings
+ * Return: a string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -20,6 +19,5 @@ char *_strcat(char *dest, char *src)
 		len += i;
 	}
 	dest[len] = '\0';
-
 	return (dest);
 }
