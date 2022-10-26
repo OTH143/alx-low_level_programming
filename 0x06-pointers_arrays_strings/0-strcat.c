@@ -2,21 +2,25 @@
 #include <string.h>
 
 /**
- * strcat - to add or combine two strings together
+ * _strcat - to add or combine two strings together
  * @dest: the destination string
  * @src: the source string
  *
- * Return: a pointer to the destination strings
+ * Return: a strings
  */
-char *strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	int len = 0, i;
 
-	while (dest[index++])
-		dest_len++;
+	while (dest[len])
+		len++;
 
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[len] + src[i];
+		len += i;
+	}
+	dest[len] = '\0';
 
 	return (dest);
 }
