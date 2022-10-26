@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * _strncpy - for comparing purpose
+ * _strncmp - for comparing purpose
  * @s1: param1
  * @s2: param2
- * Return: integer
+ * Return: the difference in s1 and s2
  */
 char *_strcmp(char *s1, char *s2);
 {
@@ -18,7 +18,7 @@ char *_strcmp(char *s1, char *s2);
 		{
 			return (s1[i] - s2[i]);
 		}
-		i++;
+	i++;
 	}
 	return (0);
 }
