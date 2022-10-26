@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * _strcat - to add or combine two strings together
