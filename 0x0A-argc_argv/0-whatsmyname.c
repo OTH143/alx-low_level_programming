@@ -6,11 +6,12 @@
  * @argv: prints out what is in argc
  * Return: 0
  */
-int main(char argc, int argv[])
+int main(int argc, char *argv[])
 {
-	if (argc > 0)
+	int i;
+	for (i = 0; i < argc; i++)
 	{
-		printf("0-whatsmyname.c\n");
+		printf("%s\n", argv[i]);
 		printf("\n");
 	}
 	return (0);
