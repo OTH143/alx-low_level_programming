@@ -8,7 +8,6 @@
  */
 int main(char argc, int argv[])
 {
-	printf("%d\n", argc);
 	if (argc > 0)
 	{
 		printf("0-whatsmyname.c\n");
