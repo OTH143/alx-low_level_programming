@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-	int v, y, i;
+	int i = 0, v, y;
 
 	if (argc != 3)
 	{
@@ -14,6 +14,6 @@ int main(int argc, char *argv[])
 	v = atoi(argv[2]);
 	i = v * y;
 	
-	printf("The multiplication of %d and %d is %d\n", v, y, i);
+	printf("%d\n", i);
 	return (0);
 }
