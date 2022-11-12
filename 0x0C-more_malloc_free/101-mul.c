@@ -1,6 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(int argc, char argv[])
+/**
+ * main - Entry
+ * @argc: param 1
+ * @argv: param 2
+ * Return: 0
+ */
+int main(int argc, char *argv[])
 {
 	unsigned long mul;
 	int i;
@@ -22,7 +29,7 @@ int main(int argc, char argv[])
 			}
 		}
 	}
-	mul = atoi(argv[1]) *atoi(argv[2]);
+	mul = atoi(argv[1]) * atoi(argv[2]);
 	printf("%lu\n", mul);
 	return (0);
 }
