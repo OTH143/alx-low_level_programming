@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "dog.h"
-#include <stddlib.h>
+#include <stdlib.h>
+
 /**
  * init_dog - intializes the variable of typestruct dog
  * @d: param 1
@@ -11,10 +12,10 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d = NULL)
+	if (d != NULL)
 	{
-		d=> name = pretty;
-		d=> age = 3;
-		d=> owner = Lucas;
+		name = name;
+		age = age;
+		owner = owner;
 	}
 }
