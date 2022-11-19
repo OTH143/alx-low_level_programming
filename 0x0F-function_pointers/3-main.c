@@ -25,7 +25,15 @@ int main(int argc, char *argv[])
 	if (!func)
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
+	}
+
+	o = *argv[2];
+
+	if ((0 == '/' || o == '%') && arg2 == 0)
+	{
+		printf("Error\n");
+		exit(100)
 	}
 
 	result = func(arg1, arg2);
